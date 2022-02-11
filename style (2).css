@@ -1,0 +1,71 @@
+        .unselectable{
+                user-select: none;
+        }
+        body {
+        background-color: white;
+        }
+        .sectionLeft{
+                float:left;
+                width:80%;
+        }     
+        .sectionright{
+                float:right;
+                width:20%;
+        }
+        .scoreContainer{
+               background-color:#1396bb;
+               color:rgb(236, 236, 236);
+               width:50%;
+               padding:10px;
+               border-radius:10px;
+               font-size:24px;
+               font-weight:bold;
+        }
+        .clickerContainer img {
+                posititon:relative;
+                transition: all .2s ease-in-out;
+        }
+        .clickerContainer img:hover {transform: scale(1.10);}
+
+        .clickerContainer img:active {transform: scale(0.99);}
+        
+        .shopButton{
+                background-color: #1396bb;
+                transition: all .2s ease-in-out;
+                border-radius: 10px;
+                width: 100%;
+                margin: 10px 0px 10px 0px;
+                color: white;
+        }
+        .shopButton:hover{
+                background-color: #1d6683;
+                transition: all .2s ease-in-out;
+        }
+        .shopButton #image{
+                width: 25%;
+        }
+        .shopButton #nameAndCost p{
+                margin: 0px;
+                widows: 60%;
+        }
+        .shopButton #nameAndCost p:first-of-type{
+                font-size: 24px;
+
+        }
+        .shopButton #amount{
+                font-size: 24px;
+
+        }
+        
+        .resetGame{
+                width:50%;
+                background-color: #1396bb;
+                border:none;
+                color:white;
+                height:40px; 
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 10px;
+                font-weight: bold;
+                font-family: 
+        }
